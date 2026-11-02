@@ -1,18 +1,9 @@
-# Valentinherrera Tap
+# valentinherrera/tap
 
-## How do I install these formulae?
+Homebrew tap for [TokenMaccer](https://github.com/valentinherrera/tokenmaccer), a Mac widget that shows your Claude Code usage in tokens and USD at API prices.
 
-`brew install valentinherrera/tap/<formula>`
-
-Or `brew tap valentinherrera/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "valentinherrera/tap"
-brew "<formula>"
+```sh
+brew install --cask valentinherrera/tap/tokenmaccer
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+The cask installs the notarized app from the project's GitHub releases. The app updates itself with Sparkle (`auto_updates true`).
