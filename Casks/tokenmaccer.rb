@@ -32,7 +32,8 @@ cask "tokenmaccer" do
 
   # --remove-data leaves the leaderboard first (if joined), then deletes Application Support/TokenMaccer; it removes
   # nothing while leaving fails, so that folder (it holds the leaderboard state) is not in the trash list.
-  # Not yet run through `brew install/uninstall --zap` (no tap yet): test before the tap goes public.
+  # `brew install` tested 2 Nov 2026 (into a separate --appdir). `brew uninstall` and `--zap` not yet run on a Mac
+  # without another TokenMaccer install: both act on the bundle id, so on a maintainer's Mac they hit the real app.
   zap script: {
         executable: "#{appdir}/TokenMaccer.app/Contents/MacOS/TokenMaccer",
         args:       ["--unregister", "--remove-data"],
