@@ -1,9 +1,9 @@
-# Homebrew cask for TokenMaccer. Template: scripts/release.sh fills in 1.0.1 and 9a2a3c4bee8e719a7c0ca02220ae9cdd2f0ee80ac11889a1f463150cd015c144 (sha256 of
+# Homebrew cask for TokenMaccer. Template: scripts/release.sh fills in 1.0.2 and e6b688a9169609b98099a098ea61875e93d2d45aea9df9d579abecb4410176fe (sha256 of
 # TokenMaccer-VERSION.dmg) and writes dist/tokenmaccer.rb, which goes to a tap repository as Casks/tokenmaccer.rb
 # (tap: github.com/valentinherrera/homebrew-tap).
 cask "tokenmaccer" do
-  version "1.0.1"
-  sha256 "9a2a3c4bee8e719a7c0ca02220ae9cdd2f0ee80ac11889a1f463150cd015c144"
+  version "1.0.2"
+  sha256 "e6b688a9169609b98099a098ea61875e93d2d45aea9df9d579abecb4410176fe"
 
   # the versioned file of the release, so the checksum stays valid after the next release; the download page links
   # the same DMG under the stable name releases/latest/download/TokenMaccer.dmg
